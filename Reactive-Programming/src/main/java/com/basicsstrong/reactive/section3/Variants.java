@@ -1,8 +1,5 @@
 package com.basicsstrong.reactive.section3;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
@@ -13,6 +10,8 @@ public class Variants {
 		
 		Observable<String> source = Observable.just("Alex", "Justin", "Jack");
 		Observable<String> source1 = Observable.empty();
+		
+		System.out.println(source);
 		
 		
 		
